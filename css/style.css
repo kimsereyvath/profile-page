@@ -67,6 +67,7 @@ body > header > div > div{
     width: fit-content;
     border: solid white;
     margin-left: 37%;
+    height: 8vh;
 }
 
 .more-about-me:hover{
@@ -85,4 +86,22 @@ nav{
     width: 100%;
     border: solid blue;
     box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style-type: none;
+    padding-left: 3%;
+    background-color: rgb(48, 48, 48);
+    top: 0;
+    position: sticky;
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 1.7em;
+    font-weight: 600;
+    margin-right: 10%;
+    color: white;
+}
+
+nav li a:hover{
+    color: rgb(248, 42, 87);
 }
