@@ -17,19 +17,18 @@
                 <h1 class="name">Kim Sereyvath.</h1>
             </div>
             <h1 class="lower-hero">I am a programmer.</h1>
-            <button class="more-about-me" onclick="">More about llme</button>
+            <button class="more-about-me" onClick="document.getElementById('about').scrollIntoView();"">More about me</button>
         </div>
     </header>
     <main>
         <nav>
             <li>
-                <a href="">About</a>
-                <a href="">Porfolio</a>
-                <a href="">Hobby</a>
-                <a href="">Contact</a>
+                <a href="#about">About</a>
+                <a href="#portfolio">Porfolio</a>
+                <a href="#contact">Contact</a>
             </li>
         </nav>
-        <div class="about">
+        <div id="about" class="about">
             <div class="about-head">
                 <h1>About Me</h1>
             </div>
@@ -69,7 +68,7 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio">
+        <div id="portfolio" class="portfolio">
             <div class="project-header">
                 <h1>My Projects</h1>
             </div>
@@ -79,31 +78,31 @@
                         <img src="image/bitroom.png" alt="">
                         <p><b>Bitroom</b> is a website made with Weebly. It is one of two prototypes of Bitroom, a VC that provide services involving interior design.</p>
                     </div>
-                    <div class="playlist" class="bitroom" onclick="location.href='https://bitroom.weebly.com/';" style="cursor: pointer;">
+                    <div class="playlist" class="bitroom" onclick="location.href='https://github.com/kimsereyvath/plalist.git';" style="cursor: pointer;">
                         <img src="image/playlist.png" alt="">
                         <p><b>Playlist App</b> is a web app made with MEVN technologies. It is a web app that allow user to create playlist of their favourite musics or even video.</p>
                     </div>
-                    <div class="task-manager" onclick="location.href='https://bitroom.weebly.com/';" style="cursor: pointer;">
+                    <div class="task-manager" onclick="location.href='https://github.com/kimsereyvath/task-manager.git';" style="cursor: pointer;">
                         <img src="image/task-manager.png" alt="">
                         <p><b>Task Manager</b> is a web app made with MEVN technologies. It is a web app that allow user to create and manage tasks.</p>
                     </div>
                 </div>
                 <div>
-                    <div class="bitroom-service" onclick="location.href='https://bitroom.weebly.com/';" style="cursor: pointer;">
-                        <img src="image/bitroom-service.png" alt="">
-                        <p><b>Bitroom</b> is a website made with Weebly. It is one of two prototypes of Bitroom, a VC that provide services involving interior design.</p>
+                    <div class="outside-pond" onclick="location.href='https://github.com/kimsereyvath/outside-pond.git';" style="cursor: pointer;">
+                        <img src="image/outside-pond.png" alt="">
+                        <p><b>Outside Pond</b> is a pond modeling made with sketchup. It features a beautiful structure that can make a home more beautiful</p>
                     </div>
-                    <div class="bitroom-service" onclick="location.href='https://bitroom.weebly.com/';" style="cursor: pointer;">
-                        <img src="image/bitroom-service.png" alt="">
-                        <p><b>Bitroom</b> is a website made with Weebly. It is one of two prototypes of Bitroom, a VC that provide services involving interior design.</p>
+                    <div class="ghost-hunter" onclick="location.href='https://scratch.mit.edu/projects/528072593';" style="cursor: pointer;">
+                        <img src="image/ghost-hunter.png" alt="">
+                        <p><b>Ghost Hunter</b> is a game made with Scratch. It is a game that require user to eliminate all ghost in the forest before they kill the hunter.</p>
                     </div>
-                    <div class="bitroom-service" onclick="location.href='https://bitroom.weebly.com/';" style="cursor: pointer;">
-                        <img src="image/bitroom-service.png" alt="">
-                        <p><b>Bitroom</b> is a website made with Weebly. It is one of two prototypes of Bitroom, a VC that provide services involving interior design.</p>
+                    <div class="no-hide" onclick="location.href='https://scratch.mit.edu/projects/564840969';" style="cursor: pointer;">
+                        <img src="image/no-hide.png" alt="">
+                        <p><b>No Where To Hide</b> is a game made with Scratch. It is a game that require user to take down the target with a projectile that can bounce.</p>
                     </div>
                 </div>
                 <div>
-                    <div class="bitroom-service" onclick="location.href='https://bitroom.weebly.com/';" style="cursor: pointer;">
+                    <div class="bitroom-service" onclick="location.href='https://bitroomservice.weebly.com/';" style="cursor: pointer;">
                         <img src="image/bitroom-service.png" alt="">
                         <p><b>Bitroom</b> is a website made with Weebly. It is one of two prototypes of Bitroom, a VC that provide services involving interior design.</p>
                     </div>
@@ -112,7 +111,22 @@
         </div>
     </main>
     <footer>
-        <div></div>
+        <div id="contact">
+            <h1>Contact Me</h1>
+        </div>
+        <div class="contact-both">
+            <div>
+                <form action="">
+                    <input type="text" placeholder="Name"><br>
+                    <input type="email" placeholder="Email"><br>
+                    <input class="message" type="text" placeholder="Your Message"><br>
+                    <button>Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="author">
+            Kim Sereyvath @2021
+        </div>
     </footer>
 </body>
 </html>
