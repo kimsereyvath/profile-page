@@ -181,11 +181,46 @@ nav li a:hover{
     border: solid black;
 }
 
-.portfolio > div{
+.project-header{
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
     color: rgb(248, 42, 87);
     font-size: 1.3em;
     padding-top: 5vh;
-    border: solid green;
+    border: solid aqua;
+}
+
+.project-container > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 2%;
+}
+
+.project-container div div{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.bitroom{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    width: 20%;
+}
+
+.playlist{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    width: 20%;
+}
+
+.task-manager{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    width: 20%;
 }
