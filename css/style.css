@@ -201,10 +201,7 @@ nav li a:hover{
 .project-container div div{
     margin-left: auto;
     margin-right: auto;
-    
-}
 
-.bitroom{
     display: flex;
     flex-direction: column;
     width: 30%;
@@ -212,22 +209,10 @@ nav li a:hover{
     font-size: 1.2em;
     border-radius: 5vh;
     overflow: hidden;
+    
 }
 
-.bitroom:hover{
+.project-container div div:hover{
     box-shadow: rgb(66, 231, 253) 0 0 1vh 0.5vh;
 }
 
-.playlist{
-    display: flex;
-    flex-direction: column;
-    background-color: red;
-    width: 30%;
-}
-
-.task-manager{
-    display: flex;
-    flex-direction: column;
-    background-color: red;
-    width: 30%;
-}
