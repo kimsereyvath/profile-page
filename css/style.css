@@ -207,20 +207,27 @@ nav li a:hover{
 .bitroom{
     display: flex;
     flex-direction: column;
-    background-color: red;
-    width: 20%;
+    width: 30%;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 5vh;
+    overflow: hidden;
+}
+
+.bitroom:hover{
+    box-shadow: rgb(66, 231, 253) 0 0 1vh 0.5vh;
 }
 
 .playlist{
     display: flex;
     flex-direction: column;
     background-color: red;
-    width: 20%;
+    width: 30%;
 }
 
 .task-manager{
     display: flex;
     flex-direction: column;
     background-color: red;
-    width: 20%;
+    width: 30%;
 }
